@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>СПО-Нови Сад</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+<link rel="shortcut icon" href="logo2.png">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("novisad.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  
+  /* Full height */
+  height: 120%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  height: 810px;
+  padding: 20px;
+  text-align: center;
+}
+.bg-text img{
+	width: 100px;
+	margin-right: 540px;
+}
+.bg-text p{
+font-weight: normal;
+opacity: 0.85;
+}
+.bg-text p:hover{
+opacity: 1;
+}
+.spo {
+	margin-right: 450px;
+	font-weight: normal;
+}
+.footer{
+	width: 103.5%;
+	height: 200px;
+	margin-top: 300px;
+	margin-left: -21px;
+	background-color:rgb(29, 120, 199,0.15);	
+}
+.footer span {
+	font-weight: normal;
+	width: 70%;
+	margin-left: 20px;
+	opacity: 0.85;
+}
+.footer span:hover {
+	opacity: 1;
+}
+.adress{
+	margin-left: -380px;
+	padding-top: 18px;
+}
+.adress1{
+margin-top: 5px;
+}
+.adress2{
+margin-right: 51px;
+padding-top: 5px;
+}
+.adress3{
+margin-right: 25px;
+padding-top: 5px;
+}
+.social{
+	margin-top: 30px;
+	margin-left: -168px;
+}
+@media screen and (max-width: 370px) {
+  .footer {
+    background-color:rgb(29, 120, 199,0.01);
+    margin-left: 190px;
+    margin-top: 210px;
+
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer {
+    background-color:rgb(29, 120, 199,0.01);
+    margin-left: 220px;
+    margin-top: 210px;
+
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .footer {
+    background-color:rgb(29, 120, 199,0.01);
+    margin-left: 130px;
+    margin-top: 210px;
+
+  }
+}
+@media screen and (max-width: 370px) {
+  .adress {
+   font-size: 12px;
+   margin-left: -240px;
+   margin-top: -50px;
+ 
+  }
+}
+
+.social a {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color:rgb(29, 120, 199,0.45);
+  color: white;
+  opacity: 0.6;
+
+}
+.social a:hover{
+	background-color:rgb(29, 120, 199,0.75);
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+	<img src="logo2.png" title="спо">
+  <p class="spo">Српски Покрет Обнове</p>
+  <h1 style="font-size:50px">Градски oдбор Нови Сад</h1>
+  <p>СПО је једини истински монархистички Покрет.</p>
+  <div class="footer">
+  	<div class="adress">
+  	<div class="adress1">
+  	  <i class="fa fa-home"></i><span>Железничка 28, 21101 Нови Сад</span>
+    </div>
+    <div class="adress2">
+      <i class="fa fa-phone"></i><span>Адреса:</span><span>+38121452242</span>
+    </div>
+     <div class="adress3">
+      <i class="fa fa-envelope" aria-hidden="true"></i><span>Email:</span><span>sponsgo@gmail.com</span>
+      </div>
+       <div class="social">
+	        <a href="https://www.facebook.com/spopokrajinskivojvodine/" class="fa fa-facebook"></a>
+	        <a href="#" class="fa fa-google"></a>
+       </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
